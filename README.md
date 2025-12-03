@@ -1,7 +1,7 @@
 ![Ifood](https://img.shields.io/badge/Projeto-Ifood-red)
 
 # 🍔 Sistema de Pedidos (iFood)
-<img src="https://i.pinimg.com/originals/ef/37/57/ef375738b5d3cc1bd9216f86c58148a9.gif"/><img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/2ef4c4ee-5f4e-42bb-8ef0-42458989f28e" />
+<img src="https://i.pinimg.com/originals/ef/37/57/ef375738b5d3cc1bd9216f86c58148a9.gif"/><img width="640" height="360" alt="image" src="
 
 
 ## 📄 Sobre o Projeto
