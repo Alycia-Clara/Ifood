@@ -84,5 +84,5 @@ A estrutura de classes evita repetição de código e facilita a manutenção:
 ## 📊 Diagrama de Classes (UML)
 
 
-https://i.pinimg.com/originals/f5/8f/e8/f58fe8e19a7e25ddf0c459a3599261d6.gif
+<img src="https://i.pinimg.com/originals/f5/8f/e8/f58fe8e19a7e25ddf0c459a3599261d6.gif">
 
