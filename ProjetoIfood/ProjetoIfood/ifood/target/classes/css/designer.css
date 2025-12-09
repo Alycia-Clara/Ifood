@@ -1,0 +1,15 @@
+.corpo{
+    -fx-background-color:rgba(255, 0, 0, 0.764);
+    -fx-background-radius:20;
+}
+.text-field{
+    -fx-text-fill:black;
+    -fx-background-color:#ffffff;
+    -fx-background-radius:10;
+    -fx-effect: dropshadow(three-pass-box, rgb(0, 0, 0), 10, 0, 0, 0);
+}
+.produto-designer{
+    -fx-background-color:#912727;
+    -fx-background-radius:15;
+    
+}

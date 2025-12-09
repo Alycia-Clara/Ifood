@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgba(82, 82, 82, 0.627);" stylesheets="@../../css/designer.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.TelaDeLogin">
+   <children>
+      <Pane fx:id="telaCriarConta" layoutX="201.0" layoutY="73.0" prefHeight="311.0" prefWidth="199.0" styleClass="corpo">
+         <children>
+            <TextField fx:id="textFieldEmailCriar" focusTraversable="false" layoutX="25.0" layoutY="97.0" promptText="email" styleClass="text-field" />
+            <TextField fx:id="textFieldSenhaCriar" focusTraversable="false" layoutX="25.0" layoutY="155.0" promptText="senha" styleClass="text-field" />
+            <TextField fx:id="textFieldNomeCriar" focusTraversable="false" layoutX="25.0" layoutY="37.0" promptText="nome" styleClass="text-field" />
+            <Label fx:id="checkDono" alignment="CENTER" layoutX="4.0" layoutY="231.0" onMouseClicked="#escolherTipo" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: gray; -fx-background-radius: 8;" text="DONO" textFill="WHITE" />
+            <Label fx:id="checkCliente" alignment="CENTER" layoutX="105.0" layoutY="231.0" onMouseClicked="#escolherTipo" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: gray; -fx-background-radius: 8;" text="CLIENTE" textFill="WHITE" />
+            <Button fx:id="bttCriarConta" layoutX="119.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#criarConta" prefHeight="21.0" prefWidth="66.0" style="-fx-background-color: BLACK;" text="CRIAR" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="10.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label alignment="CENTER" layoutX="46.0" layoutY="4.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: BLACK; -fx-background-radius: 8;" text="CRIAR CONTA" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="13.0" layoutY="256.0" onMouseClicked="#VizualizarTelaLogin" prefHeight="41.0" prefWidth="77.0" text="Logar em uma conta" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="dicaNomeCriar" alignment="CENTER" layoutX="-2.0" layoutY="62.0" prefHeight="17.0" prefWidth="199.0" textFill="WHITE" />
+            <Label fx:id="dicaEmailCriar" alignment="CENTER" layoutX="1.0" layoutY="122.0" prefHeight="17.0" prefWidth="199.0" textFill="WHITE" />
+            <Label fx:id="dicaSenhaCriar" alignment="CENTER" layoutX="-1.0" layoutY="180.0" prefHeight="17.0" prefWidth="199.0" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane fx:id="telaEntrarConta" layoutX="201.0" layoutY="107.0" prefHeight="244.0" prefWidth="199.0" styleClass="corpo" visible="false">
+         <children>
+            <TextField fx:id="textFieldSenhaEntrar" focusTraversable="false" layoutX="25.0" layoutY="92.0" promptText="senha" styleClass="text-field" />
+            <TextField fx:id="textFieldNomeEmailEntrar" focusTraversable="false" layoutX="25.0" layoutY="37.0" promptText="nome ou email" styleClass="text-field" />
+            <Button fx:id="bttEntrarConta" layoutX="108.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#entrarConta" prefHeight="21.0" prefWidth="66.0" style="-fx-background-color: BLACK;" text="ENTRAR" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="10.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="32.0" layoutY="4.0" prefHeight="25.0" prefWidth="136.0" style="-fx-background-color: BLACK; -fx-background-radius: 8;" text="ENTRA NA CONTA" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="189.0" onMouseClicked="#VizualizarCriarConta" prefHeight="41.0" prefWidth="77.0" text="Criar uma conta" textFill="WHITE" wrapText="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="dicaNomeEmailEntrar" alignment="CENTER" layoutX="-2.0" layoutY="62.0" prefHeight="17.0" prefWidth="199.0" textFill="WHITE" />
+            <Label fx:id="dicaSenhaEntrar" alignment="CENTER" layoutX="1.0" layoutY="114.0" prefHeight="17.0" prefWidth="199.0" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane layoutX="241.0" layoutY="14.0" prefHeight="52.0" prefWidth="119.0" style="-fx-background-color: white; -fx-background-radius: 10;">
+         <children>
+            <Label alignment="CENTER" layoutX="15.0" layoutY="11.0" prefHeight="32.0" prefWidth="91.0" text="IF     D" textFill="RED">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="18.0" layoutY="11.0" prefHeight="32.0" prefWidth="91.0" text="OO">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fx:id="imagem" fitHeight="117.0" fitWidth="128.0" layoutX="-150.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../imagens/girotto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagem2" fitHeight="117.0" fitWidth="128.0" layoutX="650.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../imagens/girotto.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="telaToda" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.TelaRestaurantes">
+   <children>
+      <Pane layoutX="5.0" layoutY="13.0" prefHeight="579.0" prefWidth="386.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10;">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="100.0" layoutX="150.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagens/logo.png" />
+               </image>
+            </ImageView>
+            <Pane id="produto" layoutX="14.0" layoutY="72.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="67.0" text="PÃO COM OVO" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 13,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://fitreceitas.com.br/wp-content/uploads/2022/03/Pao-com-ovo-cremoso.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="72.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="67.0" text="PÃO COM QUEIJO " textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 2,50un" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://www.academiaassai.com.br/sites/default/files/como-fazer-pao-de-queijo_easy-resize.com_.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="14.0" layoutY="239.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="67.0" text="CAFÉ COM LEITE" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 4,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/R.a5a0d39acdaa42daa6c4f78d8d731c67?rik=jIeXOGjjTbuKbQ&amp;riu=http%3a%2f%2fblog.coffeeandjoy.com.br%2fwp-content%2fuploads%2f2022%2f11%2fcoffeeandjoy_cafe_pingado.jpg&amp;ehk=hyQccITCa3f2LyNucMIJB6ZFa0r02Q9Ds3BCAxjWD4M%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="239.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="112.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="60.0" prefHeight="34.0" prefWidth="150.0" text="PÃO COM OVO E CAFÉ COM LEITE" textFill="WHITE" wrapText="true" />
+                  <Label layoutX="52.0" layoutY="90.0" text="R$ 16,50" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://uploads.folhabv.com.br/2024/03/Cafe-com-leite.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="14.0" layoutY="410.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="67.0" text="MAÇO CIGARRO" textFill="WHITE" />
+                  <Label layoutX="56.0" layoutY="84.0" text="R$ 5,60" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/R.e15f06a5253011770900021859545acd?rik=8LO9n9RI44hUsQ&amp;riu=http%3a%2f%2fcigarettepackcollector.com%2fpic%2fderbySPE.JPG&amp;ehk=MKjl9tfnmdArvjPOukyYZPSZ%2bpCJHzBTHKYxRULSATw%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="410.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="67.0" text="LANCHÃO" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 13,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://blog.supernosso.com/wp-content/uploads/2023/09/EnS_o95LOjk.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Pane layoutX="400.0" layoutY="11.0" prefHeight="579.0" prefWidth="400.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10;">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="100.0" layoutX="150.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagens/logo2.png" />
+               </image>
+            </ImageView>
+            <Pane id="produto" layoutX="14.0" layoutY="72.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="67.0" text="REFRIGERANTE LATA" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 7,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://static.paodeacucar.com/img/uploads/1/740/12059740.jpeg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="72.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="11.0" layoutY="67.0" text="BATATA FRITA PORÇÃO" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 19,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://bing.com/th?id=OSK.652f818ae11204e452823167ab41a5a2" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="14.0" layoutY="239.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="43.0" layoutY="67.0" text="CAIPIRINHA" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$9,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://bing.com/th?id=OSK.c73e4ba8c62044bfacd2bc10e44d05be" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="239.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="112.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="60.0" prefHeight="34.0" prefWidth="150.0" text="CERVEJA LONG NECK HEINEKEN 250ml" textFill="WHITE" wrapText="true" />
+                  <Label layoutX="52.0" layoutY="90.0" text="R$ 8,50" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="14.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://supermaraja.com.br/wp-content/uploads/2020/08/238.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="14.0" layoutY="410.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="66.0" text="ESPETINHO" textFill="WHITE" />
+                  <Label layoutX="56.0" layoutY="84.0" text="R$ 10,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://i.pinimg.com/736x/5e/47/2a/5e472ac44f03221271d05afa518e5b00.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+            <Pane id="produto" layoutX="224.0" layoutY="410.0" prefHeight="150.0" prefWidth="150.0" styleClass="produto-designer" stylesheets="@../../css/designer.css">
+               <children>
+                  <Label id="botao-pagar" alignment="CENTER" layoutX="37.0" layoutY="104.0" prefHeight="32.0" prefWidth="76.0" style="-fx-background-color: #f3cd24; -fx-background-radius: 10;" text="PAGAR" textFill="RED">
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="11.0" layoutY="66.0" prefHeight="17.0" prefWidth="139.0" text="DADINHO DE TAPIOCA" textFill="WHITE" />
+                  <Label layoutX="52.0" layoutY="87.0" text="R$ 23,00" textFill="WHITE" />
+                  <VBox alignment="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="59.0" prefWidth="97.0" style="-fx-border-color: black; -fx-border-radius: 10;">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/R.9e7d157bba1f513220372e4238945bbb?rik=w3GyrGL4UXGJXA&amp;riu=http%3a%2f%2ff.i.uol.com.br%2ffolha%2fcomida%2fimages%2f11290453.jpeg&amp;ehk=Z4QePQxD4jwdnCmnswLh34fQDK8J6kEGwiALLfbU2V4%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+   </children>
+</Pane>
